@@ -1,0 +1,114 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.bg-login {
+	background-color: #f5f7fb;
+}
+
+.bg {
+	background-color: #f5f7fb;
+}
+
+.bg-purple {
+	background-color: #4544c1;
+}
+
+.object img {
+	width: 150px;
+}
+.img-aside-login {
+	width: 548px;
+}
+
+.form-control-lg {
+	height: 70px;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.custom-alert {
+	padding: 14px;
+	background-color: #444444;
+	width: 350px;
+	color: #fff;
+	text-align: center;
+}
+.phoneLeft {
+	width: 200px;
+}
+.phoneText {
+	font-size: 36px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+
+.otp-ask {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.invalid-otp {
+    color: red;
+}
+
+#largeFile:after {
+  width:100%;
+  height: 100%;
+  content:url(../src/img/addImage.png);
+  left:0;
+  right:0;
+  margin:50px auto;
+  text-align:center;
+  padding:50px 0px 50px 0px;
+  color:#ccc;
+  font-size:30px; 
+}
+#largeFile:hover:after {
+  background:#ccc;
+  color:#fff;
+  cursor:pointer;
+}
+
+#largeFile input#file {
+    width: 0px;
+    height: 0px;
+}
+
+@media screen and (min-width: 997px) {
+	.verification {
+		height: 150vh;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-image: url(../src/img/bg-verification.png);
+	}
+	.phoneLeft {
+		position: absolute;
+		margin: 230px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 856px) {
+	.custom_section {
+		flex-direction: column-reverse;
+	}
+	.img-aside-login {
+		width: 340px;
+		margin-top: 100px;
+	}
+	.object img {
+		align-items: center;
+	}
+	.verification {
+		display: none;
+	}
+	#sidebar {
+		display: none;
+	}
+
+}

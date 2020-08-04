@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Login - Page</title>
+	<link rel="stylesheet" href="build/bootstrap.css">
+	<link rel="stylesheet" href="build/app.css">
+	<link rel="stylesheet" href="build/custom.css">
+	<link rel="stylesheet" href="src/css/floating-labels.css">
+</head>
+<body class="bg-login">
+
+	<!-- Login Section  -->
+	<div class="container py-5 px-sm-5">
+		<div class="row justify-content-center custom_section">
+			<div class="col-lg-6 login-left">
+				<div class="object">
+					<img src="src/img/object-g.png" class="img-fluid">
+				</div>
+				<h3 class="font-bold mt-4">Hey! welcome to Bazookah!</h3>
+				<form action="" class="d-block">
+					<div class="form-label-group">
+						<input class="form-control form-control-lg b-radius my-2 is-invalid" id="username" name="username" type="text" value="username_123" placeholder="Enter Username">
+						<label for="username">Enter Username</label>
+					</div>
+					<div class="form-label-group">
+						<input class="form-control form-control-lg b-radius my-2 is-valid" id="otp" name="otp" type="text" value="0833278" placeholder="Enter mobile number (for OTP)">
+						<label for="otp">Enter mobile number (for OTP)</label>
+						<span class="text-muted">
+							By clicking Next, you are agreeing to our Terms & Conditions and Privacy policy.
+						</span>
+					</div>
+					<button type="submit" class="btn btn-danger w-50 mt-4 round btn-lg text-uppercase">next</button>
+				</form>
+					
+			</div>
+			<div class="col-lg-6 login-right">
+				<img src="src/img/login-aside.png" class="img-aside-login">
+			</div>
+		</div>
+		<div class="custom-alert round mx-auto">Username taken</div>
+	</div>
+
+</body>
+<script src="src/js/bootstrap.js"></script>
+</html>
