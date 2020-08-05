@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest List - Bazookaah</title>
+    
+    <link rel="stylesheet" href="build/bootstrap.css">
+    <link rel="stylesheet" href="build/app.css">
+    <link rel="stylesheet" href="build/custom.css">
+    <!-- <link rel="stylesheet" href="build/leftmenu.css"> -->
+    <!-- <link rel="stylesheet" href="src/css/floating-labels.css"> -->
+    <!-- <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon"> -->
+</head>
+<body class="bg-white">
+    <body class="bg">
+      <header class="navbar navbar-header navbar-expand navbar-dark bg-purple">
+        <div class="container">
+            <img src="src/img/logo.png" width="150px">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
+                    <li>
+                        <button type="submit" class="btn text-uppercase text-white font-weight-bold">home</button>
+                    </li>
+                    <li>
+                        <button type="submit" class="btn btn-danger ml-lg-4 round text-uppercase font-weight-bold">publish</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="d-flex">
+
+        <!-- Page Content Holder -->
+        <div class="container-fluid mt-3">
+
+              <div class="container">
+                  <div class="page-title mb-4">
+                    <h3>All about red lipped batfish</h3>
+                    <h5 class="mt-4">Description</h5>
+                    <p class="text-light">Our top navigation bar got really compact and neat – getting around is a breeze!</p>
+                </div>
+              </div>
+
+              <div class="bg">
+                <div class="container">
+                  <div class="page-title mb-4">
+                    <h5 class="mt-4 pt-4">Questions (25)</h5>
+                  </div>
+
+                    <div class="card round shadow-none p-3">
+                      <div class="card-content">
+                        <div class="row">
+                          <div class="col-2">
+                            <img src="src/img/item-2.png" width="200px" class="img-fluid">
+                          </div>
+                          <div class="col-8">
+                            <h5>Question 1</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry?</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card round shadow-none p-3">
+                      <div class="card-content">
+                        <div class="row">
+                          <div class="col-2">
+                            <img src="src/img/item-2.png" width="200px" class="img-fluid">
+                          </div>
+                          <div class="col-8">
+                            <h5>Question 2</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry?</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card round shadow-none p-3">
+                      <div class="card-content">
+                        <div class="row">
+                          <div class="col-2">
+                            <img src="src/img/item-2.png" width="200px" class="img-fluid">
+                          </div>
+                          <div class="col-8">
+                            <h5>Question 3</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry?</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card round shadow-none p-3">
+                      <div class="card-content">
+                        <div class="row">
+                          <div class="col-2">
+                            <img src="src/img/item-2.png" width="200px" class="img-fluid">
+                          </div>
+                          <div class="col-8">
+                            <h5>Question 4</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry?</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            
+        </div>
+
+    </div>
+
+<!-- Popup Add -->
+<div class="modal fade" id="AddQuizine" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-centered modal-dialog-scrollable"
+    role="document">
+    <div class="modal-content round">
+        <div class="modal-header text-center">
+            <h5 class="modal-title font-weight-bold w-100" id="exampleModalCenterTitle">Create new Quizine</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                X
+            </button>
+        </div>
+        <div class="modal-body">
+            <form action="" class="d-block">
+                <div class="form-label-group">
+                    <input class="form-control form-control-lg b-radius my-2" id="title" type="text" placeholder="Add title">
+                    <label for="title">Add title</label>
+                </div>
+                <div class="form-label-group">
+                    <input class="form-control form-control-lg b-radius my-2" type="text" id="desc" placeholder="Add description">
+                    <label for="desc">Add description</label>
+                </div>
+                <div class="form-group">
+                    <label>Add tags</label>
+                    <select class="choices form-control form-control-lg multiple-remove" multiple="multiple">
+                      <optgroup label="Figures">
+                          <option value="romboid">Romboid</option>
+                          <option value="trapeze" selected>Trapeze</option>
+                          <option value="triangle">Triangle</option>
+                          <option value="polygon">Polygon</option>
+                      </optgroup>
+                      <optgroup label="Colors">
+                          <option value="red">Red</option>
+                          <option value="green">Green</option>
+                          <option value="blue" selected>Blue</option>
+                          <option value="purple">Purple</option>
+                      </optgroup>
+                  </select>
+              </div>
+
+              <button type="submit" class="btn btn-danger w-100 mt-4 round btn-md text-uppercase">add question</button>
+          </form>
+      </div>
+  </div>
+</div>    
+</div>
+
+<script src="build/app.js"></script>
+<script src="build/main.js"></script>
+<script>
+  const preview = document.getElementById("previewImg");
+  const inputFile = document.getElementById("file");
+  var imgReader = new FileReader();
+  imgReader.readAsDataURL(inputFile.files[0]);
+  imgReader.addEventListener('load', function () {
+    document.getElementById("previewImg").style.backgroundImage = url(imgReader.target.result);
+  });
+</script>
+</body>
+</html>
