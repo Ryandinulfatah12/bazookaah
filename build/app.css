@@ -59,7 +59,7 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 .color-primary {
-  color: #5A8DEE;
+  color: #3a6dff;
 }
 
 .color-secondary {
@@ -67,15 +67,15 @@
 }
 
 .color-success {
-  color: #39DA8A;
+  color: #16d46b;
 }
 
 .color-danger {
-  color: #FF5B5C;
+  color: #e21a3c;
 }
 
 .color-warning {
-  color: #FDAC41;
+  color: #f9b616;
 }
 
 .color-info {
@@ -131,7 +131,7 @@ section .section-title:after {
   height: 2px;
   content: "";
   margin: 0.6rem 0 1rem;
-  background-color: #5A8DEE;
+  background-color: #3a6dff;
   display: block;
 }
 
@@ -541,9 +541,9 @@ footer {
   padding-top: 2rem;
 }
 .form-group.with-title .form-control:focus ~ label, .form-group.with-title dataTable-input:focus ~ label {
-  border-left: 1px solid #5A8DEE;
-  border-top: 1px solid #5A8DEE;
-  border-right: 1px solid #5A8DEE;
+  border-left: 1px solid #3a6dff;
+  border-top: 1px solid #3a6dff;
+  border-right: 1px solid #3a6dff;
 }
 .form-group[class*=has-icon-].has-icon-left .form-control {
   padding-left: 2.5rem;
@@ -577,15 +577,15 @@ footer {
   box-shadow: none;
 }
 .form-check .form-check-input.form-check-primary {
-  background-color: #5A8DEE;
-  border-color: #5A8DEE;
+  background-color: #3a6dff;
+  border-color: #3a6dff;
 }
 .form-check .form-check-input.form-check-primary:not(:checked) {
   background-color: transparent;
   border: 1px solid #ced4da;
 }
 .form-check .form-check-input.form-check-primary.form-check-glow {
-  box-shadow: 0 0 5px #88adf3;
+  box-shadow: 0 0 5px #6d93ff;
 }
 .form-check .form-check-input.form-check-primary.form-check-glow:not(:checked) {
   box-shadow: none;
@@ -605,43 +605,43 @@ footer {
   box-shadow: none;
 }
 .form-check .form-check-input.form-check-success {
-  background-color: #39DA8A;
-  border-color: #39DA8A;
+  background-color: #16d46b;
+  border-color: #16d46b;
 }
 .form-check .form-check-input.form-check-success:not(:checked) {
   background-color: transparent;
   border: 1px solid #ced4da;
 }
 .form-check .form-check-input.form-check-success.form-check-glow {
-  box-shadow: 0 0 5px #64e2a3;
+  box-shadow: 0 0 5px #33ea85;
 }
 .form-check .form-check-input.form-check-success.form-check-glow:not(:checked) {
   box-shadow: none;
 }
 .form-check .form-check-input.form-check-danger {
-  background-color: #FF5B5C;
-  border-color: #FF5B5C;
+  background-color: #e21a3c;
+  border-color: #e21a3c;
 }
 .form-check .form-check-input.form-check-danger:not(:checked) {
   background-color: transparent;
   border: 1px solid #ced4da;
 }
 .form-check .form-check-input.form-check-danger.form-check-glow {
-  box-shadow: 0 0 5px #ff8e8f;
+  box-shadow: 0 0 5px #ea4561;
 }
 .form-check .form-check-input.form-check-danger.form-check-glow:not(:checked) {
   box-shadow: none;
 }
 .form-check .form-check-input.form-check-warning {
-  background-color: #FDAC41;
-  border-color: #FDAC41;
+  background-color: #f9b616;
+  border-color: #f9b616;
 }
 .form-check .form-check-input.form-check-warning:not(:checked) {
   background-color: transparent;
   border: 1px solid #ced4da;
 }
 .form-check .form-check-input.form-check-warning.form-check-glow {
-  box-shadow: 0 0 5px #fec273;
+  box-shadow: 0 0 5px #fac648;
 }
 .form-check .form-check-input.form-check-warning.form-check-glow:not(:checked) {
   box-shadow: none;
@@ -711,24 +711,24 @@ footer {
   font-size: 0.7rem;
 }
 .form-check.form-check-primary .form-check-input {
-  background-color: #5A8DEE;
-  border-color: #5A8DEE;
+  background-color: #3a6dff;
+  border-color: #3a6dff;
 }
 .form-check.form-check-secondary .form-check-input {
   background-color: #475F7B;
   border-color: #475F7B;
 }
 .form-check.form-check-success .form-check-input {
-  background-color: #39DA8A;
-  border-color: #39DA8A;
+  background-color: #16d46b;
+  border-color: #16d46b;
 }
 .form-check.form-check-danger .form-check-input {
-  background-color: #FF5B5C;
-  border-color: #FF5B5C;
+  background-color: #e21a3c;
+  border-color: #e21a3c;
 }
 .form-check.form-check-warning .form-check-input {
-  background-color: #FDAC41;
-  border-color: #FDAC41;
+  background-color: #f9b616;
+  border-color: #f9b616;
 }
 .form-check.form-check-info .form-check-input {
   background-color: #00CFDD;
@@ -1089,17 +1089,17 @@ footer {
 }
 .pricing ul li i, .pricing ul li svg {
   width: 1rem;
-  color: #39DA8A;
+  color: #16d46b;
   font-size: 1rem;
   margin-right: 7px;
 }
 .pricing .card-highlighted {
-  background-color: #5A8DEE;
+  background-color: #3a6dff;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .pricing .card-highlighted .card-header, .pricing .card-highlighted .card-body {
-  background-color: #5A8DEE;
+  background-color: #3a6dff;
   color: #fff;
 }
 .pricing .card-highlighted ul li {
@@ -1109,7 +1109,7 @@ footer {
   color: tint-color(#28a745, 2);
 }
 .pricing .card-highlighted .card-footer {
-  background-color: #5A8DEE;
+  background-color: #3a6dff;
 }
 .pricing .card-highlighted .card-title {
   color: #fff;
@@ -1118,7 +1118,7 @@ footer {
 
 /** 2.13 Navs **/
 .nav-pills .nav-link.active {
-  box-shadow: 0 2px 10px rgba(90, 141, 238, 0.5);
+  box-shadow: 0 2px 10px rgba(58, 109, 255, 0.5);
 }
 
 .nav-tabs {
@@ -1129,12 +1129,12 @@ footer {
 }
 .nav-tabs .nav-link:hover {
   border: none;
-  text-shadow: 0 0 2px rgba(90, 141, 238, 0.3);
+  text-shadow: 0 0 2px rgba(58, 109, 255, 0.3);
 }
 .nav-tabs .nav-link.active {
   border: none;
   position: relative;
-  color: #5A8DEE;
+  color: #3a6dff;
 }
 .nav-tabs .nav-link.active:after {
   content: "";
@@ -1142,9 +1142,9 @@ footer {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #5A8DEE;
+  background-color: #3a6dff;
   left: 0;
-  box-shadow: 0 2px 5px rgba(90, 141, 238, 0.5);
+  box-shadow: 0 2px 5px rgba(58, 109, 255, 0.5);
 }
 
 /** 2.14 Navbar **/
@@ -1184,9 +1184,9 @@ footer {
 
 /** 2.15 Pagination **/
 .pagination.pagination-primary .page-item.active .page-link {
-  background-color: #5A8DEE;
-  border-color: #5A8DEE;
-  box-shadow: 0 2px 5px rgba(90, 141, 238, 0.3);
+  background-color: #3a6dff;
+  border-color: #3a6dff;
+  box-shadow: 0 2px 5px rgba(58, 109, 255, 0.3);
 }
 .pagination.pagination-secondary .page-item.active .page-link {
   background-color: #475F7B;
@@ -1194,19 +1194,19 @@ footer {
   box-shadow: 0 2px 5px rgba(71, 95, 123, 0.3);
 }
 .pagination.pagination-success .page-item.active .page-link {
-  background-color: #39DA8A;
-  border-color: #39DA8A;
-  box-shadow: 0 2px 5px rgba(57, 218, 138, 0.3);
+  background-color: #16d46b;
+  border-color: #16d46b;
+  box-shadow: 0 2px 5px rgba(22, 212, 107, 0.3);
 }
 .pagination.pagination-danger .page-item.active .page-link {
-  background-color: #FF5B5C;
-  border-color: #FF5B5C;
-  box-shadow: 0 2px 5px rgba(255, 91, 92, 0.3);
+  background-color: #e21a3c;
+  border-color: #e21a3c;
+  box-shadow: 0 2px 5px rgba(226, 26, 60, 0.3);
 }
 .pagination.pagination-warning .page-item.active .page-link {
-  background-color: #FDAC41;
-  border-color: #FDAC41;
-  box-shadow: 0 2px 5px rgba(253, 172, 65, 0.3);
+  background-color: #f9b616;
+  border-color: #f9b616;
+  box-shadow: 0 2px 5px rgba(249, 182, 22, 0.3);
 }
 .pagination.pagination-info .page-item.active .page-link {
   background-color: #00CFDD;
@@ -1268,9 +1268,9 @@ footer {
   overflow: visible;
 }
 .progress.progress-primary .progress-bar {
-  background-color: #5A8DEE;
+  background-color: #3a6dff;
   border-radius: 1rem;
-  box-shadow: 0px 2px 3px rgba(90, 141, 238, 0.8);
+  box-shadow: 0px 2px 3px rgba(58, 109, 255, 0.8);
 }
 .progress.progress-secondary {
   overflow: visible;
@@ -1284,25 +1284,25 @@ footer {
   overflow: visible;
 }
 .progress.progress-success .progress-bar {
-  background-color: #39DA8A;
+  background-color: #16d46b;
   border-radius: 1rem;
-  box-shadow: 0px 2px 3px rgba(57, 218, 138, 0.8);
+  box-shadow: 0px 2px 3px rgba(22, 212, 107, 0.8);
 }
 .progress.progress-danger {
   overflow: visible;
 }
 .progress.progress-danger .progress-bar {
-  background-color: #FF5B5C;
+  background-color: #e21a3c;
   border-radius: 1rem;
-  box-shadow: 0px 2px 3px rgba(255, 91, 92, 0.8);
+  box-shadow: 0px 2px 3px rgba(226, 26, 60, 0.8);
 }
 .progress.progress-warning {
   overflow: visible;
 }
 .progress.progress-warning .progress-bar {
-  background-color: #FDAC41;
+  background-color: #f9b616;
   border-radius: 1rem;
-  box-shadow: 0px 2px 3px rgba(253, 172, 65, 0.8);
+  box-shadow: 0px 2px 3px rgba(249, 182, 22, 0.8);
 }
 .progress.progress-info {
   overflow: visible;
@@ -1441,6 +1441,10 @@ footer {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-size-24 {
+  font-size: 24px;
 }
 
 .pt-32 {

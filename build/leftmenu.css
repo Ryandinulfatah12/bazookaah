@@ -1,12 +1,12 @@
-nav {
+/*nav {
     margin-right: 420px;
-}
+}*/
 .leftMenu {
     z-index: 1000;
     width: 400px;
     height: 100%;
     padding: 10px 10px 10px 0;
-    position: fixed;
+    /*position: fixed;*/
     transition: all 1s;
     background: #fff;
 }
@@ -14,7 +14,7 @@ nav {
 .Menu {
     width: 350px;
     height: 175px;
-    border-radius: 5px;
+    border-radius: 1.5rem;
     margin: 20px 10px;
     padding: 10px;
     background-color: #f5f7fb;

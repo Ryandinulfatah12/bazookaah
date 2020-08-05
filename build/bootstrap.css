@@ -2408,14 +2408,14 @@ progress {
   box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
 }
 .form-check-input:checked {
-  background-color: #0d6efd;
+  background-color: #fff;
   border-color: #0d6efd;
 }
 .form-check-input:checked[type=checkbox] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
 }
 .form-check-input:checked[type=radio] {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
+  background-image: url(../src/img/checked.png);
 }
 .form-check-input[type=checkbox]:indeterminate {
   background-color: #0d6efd;
@@ -7061,7 +7061,7 @@ button.close {
 }
 
 .bg-primary {
-  background-color: #5A8DEE !important;
+  background-color: #3a6dff !important;
 }
 
 .bg-secondary {
@@ -7069,15 +7069,15 @@ button.close {
 }
 
 .bg-success {
-  background-color: #39DA8A !important;
+  background-color: #16d46b !important;
 }
 
 .bg-danger {
-  background-color: #FF5B5C !important;
+  background-color: #e21a3c !important;
 }
 
 .bg-warning {
-  background-color: #FDAC41 !important;
+  background-color: #f9b616 !important;
 }
 
 .bg-info {
