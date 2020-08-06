@@ -18,6 +18,18 @@
 	background-color: #4544c1;
 }
 
+.bg-rank1 {
+	background-color: #fdeca8;
+	border-radius: 10px;
+}
+.bg-rank3 {
+	background-color: #ffe4cf;
+	border-radius: 10px;
+}
+.text-rank3 {
+	color: #d3a593;
+}
+
 .object img {
 	width: 150px;
 }
@@ -97,6 +109,24 @@
 	background-size: contain;
 	z-index: 1000;
 }
+
+.timer {
+	padding: 20px;
+	background-color: #4a6495;
+}
+
+.rank-badge {
+	margin-left: 30px;
+}
+
+.no-border-table {
+	border: none;
+}
+
+tr:first-child td:first-child { border-top-left-radius: 20px;}
+tr:first-child td:last-child { border-top-right-radius: 20px;}
+tr:last-child td:first-child { border-bottom-left-radius: 20px;}
+tr:last-child td:last-child { border-bottom-right-radius: 20px;}
 
 @media screen and (min-width: 997px) {
 	.verification {

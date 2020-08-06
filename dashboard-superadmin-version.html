@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Super Admin Version - Bazookaah</title>
+    
+    <link rel="stylesheet" href="build/bootstrap.css">
+    <link rel="stylesheet" href="build/app.css">
+    <link rel="stylesheet" href="src/css/floating-labels.css">
+    <link rel="stylesheet" href="src/css/choices.min.css">
+    <!-- <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon"> -->
+</head>
+<body>
+    <div id="app">
+        <div id="sidebar" class='active'>
+            <div class="sidebar-wrapper active">
+                <div class="sidebar-header">
+                    <img src="src/img/logo.png" class="ml-lg-5">
+                </div>
+                <div class="sidebar-menu">
+                    <ul class="menu px-4">
+
+
+                        <!-- <li class='sidebar-title'>Main Menu</li> -->
+
+
+                        <!-- Add class active on li element -->
+                        <li class="sidebar-item">
+                            <a href="index.html" class='sidebar-link'>
+                                <img src="src/img/icon/quizine.png" width="20px" alt="sideIcon">
+                                <span>Quizine</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item ">
+                            <a href="#" class='sidebar-link'>
+                                <img src="src/img/icon/playgame.png" width="20px" alt="sideIcon">
+                                <span>Trivia</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item ">
+                            <a href="#" class='sidebar-link'>
+                                <img src="src/img/icon/love.png" width="20px" alt="sideIcon">
+                                <span>Favourites</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item ">
+                            <a href="#" class='sidebar-link'>
+                                <img src="src/img/icon/user.png" width="20px" alt="sideIcon">
+                                <span>Profile</span>
+                            </a>
+                        </li>
+
+                        <hr class="mx-5">
+
+                        <li class="sidebar-item ">
+                            <a href="#" class='sidebar-link'>
+                                <img src="src/img/icon/logout.png" width="20px" alt="sideIcon">
+                                <span>Logout</span>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <button class="sidebar-toggler btn x">x</button>
+            </div>
+        </div>
+        <div id="main">
+            <nav class="navbar navbar-header navbar-expand navbar-light bg-white">
+                <a class="sidebar-toggler" href="#"><span class="navbar-toggler-icon"></span></a>
+                <button class="btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <input type="text" class="form-control round ml-3 bg-light form-border-none" placeholder="SEARCH">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
+                    
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+                            <div class="avatar mr-1">
+                                <img src="src/img/avatar-admin.png" alt="" srcset="">
+                            </div>
+                            <div class="d-none d-md-block d-lg-inline-block">Super Admin</div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#"><i data-feather="user"></i> Account</a>
+                            <a class="dropdown-item active" href="#"><i data-feather="mail"></i> Messages</a>
+                            <a class="dropdown-item" href="#"><i data-feather="settings"></i> Settings</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><i data-feather="log-out"></i> Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="main-content container-fluid">
+            <section class="section">
+                <div class="row mb-2">
+                    <div class="col-12 col-md-4 align-items-center">
+                        <div class="card round shadow-none">
+                            <div class="card-content p-3">
+                                <div class="row">
+                                    <div class="col-lg-4 col-12 mt-2">
+                                        <img src="src/img/object-g.png" width="120px" class="p-3">
+                                    </div>
+                                    <div class="col-lg-8 col-12">
+                                        <div class="card-body">
+                                            <h5 class="text-nowrap">Create new Quizine</h5>
+                                            <p class="card-text text-ellipsis">
+                                                Compose your own quiz and share to enjoy the game.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" data-toggle="modal"
+                    data-target="#AddQuizine" class="btn btn-white round ml-4">create</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 align-items-center">
+                        <div class="card round shadow-none">
+                            <div class="card-content p-3">
+                                <div class="row">
+                                    <div class="col-lg-4 col-12 mt-2">
+                                        <img src="src/img/playgame.png" width="120px" class="p-3">
+                                    </div>
+                                    <div class="col-lg-8 col-12">
+                                        <div class="card-body">
+                                            <h5 class="text-nowrap">Time to play!</h5>
+                                            <p class="card-text text-ellipsis">
+                                                Choose from our list of quiz to play with your friends & family.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-white round ml-4">play</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="page-title mb-2">
+                    <h5>Try our Quizines</h5>
+                </div>
+                <div class="d-flex mb-4">
+                    <button class="btn btn-filter-active text-uppercase round mr-3">all</button>
+                    <button class="btn btn-white-only text-light text-uppercase round mr-3">MY QUIZINE</button>
+                    <button class="btn btn-white-only text-light text-uppercase round mr-3">favorited</button>
+                    <button class="btn btn-white-only text-light text-uppercase round mr-3">shared</button>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-12 col-md-4 align-items-center">
+                        <figure class="figure">
+                          <a href="#"><img src="src/img/item-1.png" class="figure-img img-fluid round" alt="..."></a>
+                          <figcaption class="figure-caption">
+                                <a href="#"><span class="float-right"><img src="src/img/icon/love.png" width="20px"></span></a>
+                                  All about red lipped batfish<br>    
+                                  25 questions | Tommy
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-4 align-items-center">
+                        <figure class="figure">
+                          <a href="#"><img src="src/img/item-2.png" class="figure-img img-fluid round" alt="..."></a>
+                          <figcaption class="figure-caption">
+                                <a href="#"><span class="float-right"><img src="src/img/icon/love-red.png" width="20px"></span></a>
+                                  All about red lipped batfish<br>    
+                                  25 questions | Tommy
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-4 align-items-center">
+                        <figure class="figure">
+                          <a href="#"><img src="src/img/item-3.png" class="figure-img img-fluid round" alt="..."></a>
+                          <figcaption class="figure-caption">
+                                <a href="#"><span class="float-right"><img src="src/img/icon/love.png" width="20px"></span></a>
+                                  All about red lipped batfish<br>    
+                                  25 questions | Tommy
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-4 align-items-center">
+                        <figure class="figure">
+                          <a href="#"><img src="src/img/item-4.png" class="figure-img img-fluid round" alt="..."></a>
+                          <figcaption class="figure-caption">
+                                <a href="#"><span class="float-right"><img src="src/img/icon/love.png" width="20px"></span></a>
+                                  All about red lipped batfish<br>    
+                                  25 questions | Tommy
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<!-- Popup Add -->
+<div class="modal fade" id="AddQuizine" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-centered modal-dialog-scrollable"
+        role="document">
+        <div class="modal-content round">
+            <div class="modal-header text-center">
+                <h5 class="modal-title font-weight-bold w-100" id="exampleModalCenterTitle">Create new Quizine</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                X
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="" class="d-block">
+                    <div class="form-label-group">
+                        <input class="form-control form-control-lg b-radius my-2" id="title" type="text" placeholder="Add title">
+                        <label for="title">Add title</label>
+                    </div>
+                    <div class="form-label-group">
+                        <input class="form-control form-control-lg b-radius my-2" type="text" id="desc" placeholder="Add description">
+                        <label for="desc">Add description</label>
+                    </div>
+                    <div class="form-group">
+                        <label>Add tags</label>
+                        <select class="choices form-control form-control-lg multiple-remove" multiple="multiple">
+                              <optgroup label="Figures">
+                                  <option value="romboid">Romboid</option>
+                                  <option value="trapeze" selected>Trapeze</option>
+                                  <option value="triangle">Triangle</option>
+                                  <option value="polygon">Polygon</option>
+                              </optgroup>
+                              <optgroup label="Colors">
+                                  <option value="red">Red</option>
+                                  <option value="green">Green</option>
+                                  <option value="blue" selected>Blue</option>
+                                  <option value="purple">Purple</option>
+                              </optgroup>
+                          </select>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-danger w-100 mt-4 round btn-md text-uppercase">add question</button>
+                </form>
+            </div>
+        </div>
+    </div>    
+</div>
+
+<script src="build/app.js"></script>
+<script src="build/main.js"></script>
+<script src="src/js/jquery-3.5.1.min.js"></script>
+<script src="src/js/custom.js"></script>
+<script src="src/js/choices.min.js"></script>
+</body>
+</html>

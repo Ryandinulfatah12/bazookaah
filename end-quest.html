@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quest List - Bazookaah</title>
+    <title>Quest in Game - Bazookaah</title>
     
     <link rel="stylesheet" href="build/bootstrap.css">
     <link rel="stylesheet" href="build/app.css">
@@ -12,17 +12,15 @@
     <!-- <link rel="stylesheet" href="src/css/floating-labels.css"> -->
     <!-- <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon"> -->
 </head>
-<body class="bg-white">
+<body class="bg">
       <header class="navbar navbar-header navbar-expand navbar-dark bg-purple">
         <div class="container">
             <img src="src/img/logo.png" width="150px">
+            <span class="text-white font-weight-bold ml-4 text-nowrap">Room: 37892678</span>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
                     <li>
-                        <button type="submit" class="btn text-uppercase text-white font-weight-bold">home</button>
-                    </li>
-                    <li>
-                        <button type="submit" class="btn btn-danger ml-lg-4 round text-uppercase font-weight-bold">publish</button>
+                        <button type="submit" class="btn text-uppercase text-white font-weight-bold">end quiz</button>
                     </li>
                 </ul>
             </div>
@@ -35,76 +33,61 @@
         <div class="container-fluid mt-3">
 
               <div class="container">
-                  <div class="page-title mb-4">
-                    <h3>All about red lipped batfish</h3>
-                    <h5 class="mt-4">Description</h5>
-                    <p class="text-light">Our top navigation bar got really compact and neat – getting around is a breeze!</p>
-                </div>
-              </div>
+                  <div class="card shadow-none round m-lg-3">
+                    <div class="card-content p-4 text-center">
+                      <div class="row custom_section">
+                        <div class="col-lg-6 col-md-6">
+                          <h3>Question 17 of 25</h3>
+                          <table class="table table-borderless mb-0">
+                            <thead>
+                              <tr class="text-light">
+                                <th>Players</th>
+                                <th>Score</th>
+                                <th>Accuracy</th>
+                              </tr>
+                            </thead>
+                            <tbody class="no-border-table">
+                              <tr class="bg-rank1">
+                                <td><h4 class="font-weight-bold text-wrap text-warning"><img src="src/img/chara (1).png" class="img-fluid" width="50px"> Tony Newman</h4></td>
+                                <td><h5 class="font-weight-bold">15,220</h5></td>
+                                <td><h3 class="font-weight-bold">98% <img src="src/img/rank1.png" class="rank-badge position-absolute"></h3></td>
+                              </tr>
+                              <tr class="bg-light">
+                                <td><h4 class="font-weight-bold text-wrap text-light"><img src="src/img/chara (2).png" class="img-fluid" width="50px"> Herman Welch</h4></td>
+                                <td><h5 class="font-weight-bold">9,855</h5></td>
+                                <td><h3 class="font-weight-bold">91% <img src="src/img/rank2.png" class="rank-badge position-absolute"></h3></td>
+                              </tr>
+                              <tr class="bg-rank3">
+                                <td><h4 class="font-weight-bold text-wrap text-rank3"><img src="src/img/chara (3).png" class="img-fluid" width="50px"> Dollie Man</h4></td>
+                                <td><h5 class="font-weight-bold">7,433</h5></td>
+                                <td><h3 class="font-weight-bold">88% <img src="src/img/rank3.png" class="rank-badge position-absolute"></h3></td>
+                              </tr>
+                              <tr class="bg-light">
+                                <td><h4 class="font-weight-bold text-wrap text-light">4. <img src="src/img/chara (2).png" class="img-fluid" width="50px"> Herman Welch</h4></td>
+                                <td><h5 class="font-weight-bold">6,855</h5></td>
+                                <td><h3 class="font-weight-bold">71%</h3></td>
+                              </tr>
+                              <tr class="bg-light">
+                                <td><h4 class="font-weight-bold text-wrap text-light">5. <img src="src/img/chara (2).png" class="img-fluid" width="50px"> John Welch</h4></td>
+                                <td><h5 class="font-weight-bold">5,855</h5></td>
+                                <td><h3 class="font-weight-bold">61%</h3></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
 
-              <div class="bg">
-                <div class="container">
-                  <div class="page-title mb-4">
-                    <h5 class="mt-4 pt-4">Questions (25)</h5>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="pt-32 mb-5">
+                              <img src="src/img/score.png" class="mb-4" width="250px"><br>
+                              <a href="#" class="btn btn-danger btn-lg w-50 round text-uppercase text-nowrap font-weight-bold">finish quest</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-
-                    <div class="card round shadow-none p-3">
-                      <div class="card-content">
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="src/img/item-2.png" width="200px" class="img-fluid">
-                          </div>
-                          <div class="col-8">
-                            <h5>Question 1</h5>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry?</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="card round shadow-none p-3">
-                      <div class="card-content">
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="src/img/item-2.png" width="200px" class="img-fluid">
-                          </div>
-                          <div class="col-8">
-                            <h5>Question 2</h5>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry?</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="card round shadow-none p-3">
-                      <div class="card-content">
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="src/img/item-2.png" width="200px" class="img-fluid">
-                          </div>
-                          <div class="col-8">
-                            <h5>Question 3</h5>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry?</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="card round shadow-none p-3">
-                      <div class="card-content">
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="src/img/item-2.png" width="200px" class="img-fluid">
-                          </div>
-                          <div class="col-8">
-                            <h5>Question 4</h5>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry?</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                </div>
               </div>
+
+              
             
         </div>
 
