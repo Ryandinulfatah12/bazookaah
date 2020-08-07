@@ -41,12 +41,20 @@
         <nav id="sidebar">
             <div class="leftMenu">
                 <a href="#">
-                    <div class="Menu border-purple-2 d-flex">
+                    <div class="Menu d-flex">
                       <div class="mr-3">1</div>
-                        <!-- <span class="mx-auto my-auto">+ Add Question</span> -->
+                        <div class="d-inline-block">
+                            <img src="src/img/item-2.png" width="90px" height="40px">
+                            <p class="text-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+                            <div class="row no-gutters mx-2">
+                              <div class="col-5 answerCheck thisChecked border-light-1"></div>
+                              <div class="col-5 answerCheck border-light-1"></div>
+                              <div class="col-5 answerCheck border-light-1"></div>
+                              <div class="col-5 answerCheck border-light-1"></div>
+                            </div>
+                          </div>
                     </div>
                 </a>
-                
                 <a href="#" data-toggle="modal" data-target="#noAnswer">
                     <div class="Menu d-flex">
                         <span class="mx-auto my-auto">+ Add Question</span>
@@ -61,12 +69,12 @@
 
             <div class="row mb-3">
                 <div class="col-lg-6 addImg">
-                  <div class="card shadow-none round border-light-1 h-100 previewImg">
+                  <div class="card shadow-none round border-light-1 h-100 previewImg" style="background-image: url(src/img/item-2.png); background-size: contain; background-repeat: no-repeat;">
                      <div class="card-content p-4 mx-auto my-auto">
-                        <label id="largeFile">
+                        <!-- <label id="largeFile">
                             <h4 class="d-block">Add Image</h4>
                             <input type="file" id="file" class="pb-5" accept="image/*"/>
-                        </label>
+                        </label> -->
                      </div>
                    </div>
                 </div>
@@ -105,13 +113,13 @@
 
             <form action="">
               <div class="form-label-group">
-                  <input class="form-control form-control-lg b-radius my-2" id="title" type="text" placeholder="Type your question here…">
+                  <textarea class="form-control form-control-lg b-radius my-2" id="exampleFormControlTextarea1" readonly="readonly" rows="3">Lorem Ipsum is simply dummy text of the printing and typesetting industry..</textarea>
               </div>
 
               <div class="row mt-3 mb-3 p-3 justify-content-center">
                   <div class="col-lg-5 bg-primary p-5 round m-2">
                     <div class="form-check font-size-24">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="">
                         <label class="form-check-label text-white" for="flexRadioDefault1">
                             Answer 1
                         </label>
